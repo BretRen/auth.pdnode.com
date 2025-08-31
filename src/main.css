@@ -1,0 +1,17 @@
+.pd-transition {
+    animation: up-to-down 0.5s ease-out forwards;
+}
+
+@keyframes up-to-down {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.bg-custom {
+    background: linear-gradient(to right, red, yellow, green, blue);
+}
